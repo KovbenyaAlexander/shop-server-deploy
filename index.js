@@ -16,9 +16,6 @@ app.use(cookieParser());
 app.use(
   cors({
     origin: "*",
-    allowedHeaders: "Access-Control-Allow-Origin",
-    methods: ["GET", "POST"],
-    credentials: true,
   })
 );
 app.use("/api", router);
