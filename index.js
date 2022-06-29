@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://kovbenyaalexander.github.io/shop/",
+    origin: "https://kovbenyaalexander.github.io",
     credentials: true,
   })
 );
